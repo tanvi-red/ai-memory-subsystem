@@ -1,0 +1,49 @@
+# Vivado & FPGA Vendor Tools
+*.log
+*.jou
+*.pb
+*.mif
+*.wdb
+*.wcfg
+*.data
+*.str
+.Xil/
+*.runs/
+*.srcs/
+*.sdk/
+*.hw/
+*.ip_user_files/
+.sim_cache/
+.cache/
+
+# Verilator & C++ Simulation Artifacts
+obj_dir/
+*.o
+*.a
+*.so
+*.out
+*.vcd
+*.fst
+*.vpd
+sim_build/
+results.xml
+
+# Python, Cocotb & Data Analysis Outputs
+__pycache__/
+*.py[cod]
+*$py.class
+*.ipynb_checkpoints
+.pytest_cache/
+.venv/
+env/
+venv/
+*.csv.bak
+output_plots/
+
+# OS & IDE Specific Files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
